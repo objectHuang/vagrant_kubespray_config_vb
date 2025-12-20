@@ -1,8 +1,9 @@
 $num_instances = 6
 $os = "ubuntu2204"
 $subnet = "192.168.8"
-
+$vm_memory = 4096
 $extra_vars = {
+    "dashboard_enabled": true,
     "helm_enabled": true,
     "metrics_server_enabled": true,    
     "kube_proxy_mode": "ipvs",
