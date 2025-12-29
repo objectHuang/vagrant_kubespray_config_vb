@@ -1,7 +1,8 @@
-$num_instances = 6
+$num_instances = 3
 $os = "ubuntu2204"
 $subnet = "192.168.8"
-$vm_memory = 4096
+$vm_memory = 16384
+$vm_cpus = 4
 $extra_vars = {
     "dashboard_enabled": true,
     "helm_enabled": true,
